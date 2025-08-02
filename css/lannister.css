@@ -1,0 +1,160 @@
+body{
+    min-height: 140vh;
+    background: linear-gradient(145deg, #1A1A1A, #FF4500);
+    font-family: 'Georgia', serif;
+    color: #e0e0e0;
+}
+header{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    margin-left: 100px;
+    margin-top: 2px;
+}
+
+.sot{
+    display: none;
+}
+
+.castle-name{
+    margin-right: 100px;
+    font-size: 60px;
+    text-shadow: 2px 2px 3px rgba(85, 4, 4, 0.397);
+    align-self: center;
+  letter-spacing: 2px;
+  font-family: cinzel
+
+    
+}
+h3{
+          background: linear-gradient(45deg, #e6d7a4, #ffffff); /* ذهبي باهت وأبيض */
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-weight: bold;
+         font-family: 'Cinzel Decorative', serif;
+          letter-spacing: 2px;
+          text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+          align-items: center;
+        
+}
+article h1{
+    color: #B22222;
+}
+article {
+    color: #F5F5F5;
+    text-shadow: rgba(0,0,0,0.7);
+    font-size: 40px;
+    width:1100px;
+    overflow:auto;
+    margin-left:10px;
+    font-family: cinzel;
+    max-width: 1000px;
+    text-align: justify;
+    line-height: 1.8
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+aside{
+    overflow: scroll;
+  max-height: 500px;
+  margin-top: 250px;
+  background-color: rgba(245, 236, 217, 0.5); /* لون فاتح شفاف فوق الصورة */
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), 
+                    url('https://i.pinimg.com/1200x/4f/83/c8/4f83c8b6d8641ef5e6b58fd12eed48e5.jpg');
+
+  background-repeat:round;
+  background-size: cover;
+  background-blend-mode: multiply; /* خلط اللون مع الصورة */
+
+    border: 2px solid #c2b280;
+  border-radius: 10px;
+  font-family: 'MedievalSharp', cursive;
+  color: #f3c649; /* لون فاتح عشان يظهر على الخلفية */
+  line-height: 1.8;
+  text-shadow: 2px 2px 5px black;
+  padding: 20px;
+}
+aside li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside ol{
+    list-style-type: upper-roman;
+}
+footer .home{
+    text-decoration: none;
+    color: rgb(7, 122, 199);
+    padding: 1px;
+    margin: 50px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+footer .enemy{
+    text-decoration: none;
+    padding: 1px;
+    margin: 50px;
+    color: #8b0000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    transform:5s;
+}
+
+
+.enemy:hover{
+    color: #ffd700;
+    
+}
+.home:hover{
+    color: #ffd700;
+}
+
+footer{
+    /* display: flex; */
+    justify-content: space-between;
+    
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.container {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/189/290/374/sigils-game-of-thrones-a-song-of-ice-and-fire-house-lannister-wallpaper-preview.jpg);
+  background-size: cover;        /* تخلي الصورة تغطي المساحة بالكامل */
+  background-position: center;   /* تخليها متوسّطة */
+  background-repeat: no-repeat;  /* تمنع تكرار الصورة */
+  padding: 50px;                 /* مساحة داخلية علشان الكلام يبان */
+  color: white;                  /* علشان الكلام يبان فوق الخلفية */
+  text-shadow: 2px 2px 6px black; /* علشان الخط يبان أوضح فوق الصورة */
+  border-radius: 10px; }   
+
+  .container::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5); /* تغطية شفافة */
+  z-index: -1;
+  border-radius: 10px;
+}
+.container {
+  position: relative;
+  z-index: 3;}
+
+
+  footer{
+    display: flex;
+  }
+
+
+  
